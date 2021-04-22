@@ -1,0 +1,35 @@
+{
+  "name": "playground-elements-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecycletechnologies/playground-elements-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecycletechnologies/playground-elements-webpack/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/codecycletechnologies/playground-elements-webpack#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.1",
+    "playground-elements": "^0.9.1"
+  }
+}
