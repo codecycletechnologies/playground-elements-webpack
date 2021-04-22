@@ -1,4 +1,7 @@
-import { LitElement, html, customElement } from 'lit-element';
+import { LitElement, html } from 'lit';
+import { customElement } from 'lit/decorators.js';
+
+
 @customElement( 'say-hello' )
 
 export class SayHello extends LitElement
