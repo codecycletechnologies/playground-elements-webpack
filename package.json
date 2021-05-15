@@ -29,6 +29,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@material/mwc-button": "^0.20.0",
     "@vaadin/router": "^1.7.4",
     "lit": "^2.0.0-rc.1",
     "playground-elements": "^0.9.3"
