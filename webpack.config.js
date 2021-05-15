@@ -8,8 +8,7 @@ export default {
         contentBase: './dist',
     },
     entry: {
-        app: './index.ts',
-        'playground-ide': '/node_modules/playground-elements/playground-ide.js'
+        app: './app.ts'
     },
     watchOptions: {
         ignored: [ 'test/**', '**/node_modules' ],
@@ -56,7 +55,7 @@ export default {
         new CopyPlugin( {
             patterns: [
                 { from: './src/greetings/', to: './greetings/' },
-                { from: './node_modules/playground-elements/playground-service-worker-proxy.html', to: './playground-elements.playground-service-worker-proxy.html' }
+                { from: './src/helloworld/', to: './helloworld/' }
 
             ],
         } )
