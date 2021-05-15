@@ -6,6 +6,7 @@ export default {
     devtool: 'inline-source-map',
     devServer: {
         contentBase: './dist',
+        historyApiFallback: true
     },
     entry: {
         app: './app.ts'
